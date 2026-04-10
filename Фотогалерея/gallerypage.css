@@ -1,5 +1,6 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0;
     padding-left: 20px;
     padding-right: 20px;
     max-width: 1500px;
@@ -8,6 +9,11 @@ body {
     align-items: center;
     flex-direction:column;
     display:flex;
+}
+
+img {
+    width: 400px;
+    height: 350px;
 }
 
 p {
@@ -39,10 +45,10 @@ a:hover {
 
 .footer {
     background-color: rgb(238, 232, 232);
-    position: fixed;
+    margin-top: auto;
     text-align: center;
     bottom: 0;
-    width: 2000px;
+    width: 2000px !important;
     padding: 20px;
 }
 
